@@ -3,8 +3,10 @@ package tasks.arraylist.string_subsequence;
 import java.util.ArrayList;
 import java.util.List;
 
+// class to to subsequences of vegetables
 public class SubSequence {
 
+//	To print all subsequence of each vegetables
 	public void printArrayList(List<String> list) {
 		for (int i = 0; i < list.size(); i++)
 			System.out.print(list.get(i) + " ");
@@ -23,6 +25,7 @@ public class SubSequence {
 
 		String subStr = str.substring(1);
 
+//		Recursion
 		ArrayList<String> subSequences = getSequence(subStr);
 
 		ArrayList<String> res = new ArrayList<>();
