@@ -5,6 +5,7 @@ import java.util.Scanner;
 import tasks.arraylist.array_to_arraylist.VegetablesList;
 import tasks.arraylist.arraylist_to_array.MarketEmp;
 import tasks.arraylist.sorting_array.PriceList;
+import tasks.arraylist.string_subsequence.SubSequence;
 
 // VegetableMarket class to maintain the list of vegetables available
 
@@ -50,6 +51,15 @@ public class VegetableMarket {
 
 //		To display Lowest price in the market
 		System.out.println("Lowest price available in market " + pl.sortPriceListAscending().get(0));
+
+//		Getting string to check sequence
+		System.out.println("Enter the ");
+
+//		To print subsequences of all vegetable list
+		SubSequence sq = new SubSequence();
+		for (String str : vegetableArray()) {
+			sq.printArrayList(sq.getSequence(str));
+		}
 
 		scan.close();
 
