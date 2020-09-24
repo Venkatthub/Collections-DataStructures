@@ -15,9 +15,7 @@ public class VegetableMarket {
 
 		VegetablesList list = new VegetablesList();
 
-		list.addVeges(vegetableArray());
-
-		System.out.println(list.getList());
+		System.out.println(list.addVeges(vegetableArray()));
 
 		MarketEmp emp = new MarketEmp();
 
@@ -41,7 +39,7 @@ public class VegetableMarket {
 		PriceList pl = new PriceList();
 
 //		Using Streams and foreach method to get price for each item in the market
-		list.getList().stream().forEach(item -> {
+		list.getList().forEach(item -> {
 			System.out.println("\n" + "Enter price for " + item);
 			pl.setPrice(scan.nextDouble());
 		});
