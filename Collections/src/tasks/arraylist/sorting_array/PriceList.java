@@ -3,6 +3,8 @@ package tasks.arraylist.sorting_array;
 import java.util.ArrayList;
 import java.util.List;
 
+//	Sorting ArrayList in Ascending and Descending order without using sort method
+
 public class PriceList {
 
 	private static ArrayList<Double> price = new ArrayList<>();
