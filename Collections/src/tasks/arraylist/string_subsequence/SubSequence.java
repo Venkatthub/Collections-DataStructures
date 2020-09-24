@@ -3,7 +3,7 @@ package tasks.arraylist.string_subsequence;
 import java.util.ArrayList;
 import java.util.List;
 
-// class to to subsequences of vegetables
+// class to get subsequences of each vegetables
 
 public class SubSequence {
 
