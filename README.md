@@ -1,3 +1,11 @@
 # Collections-DataStructures
-#1 Collections - Datastructures implementation and Task with collections
-#2 Real-World example furniture showroom using generics, enum, method overloading and user defined exception.
+# Collections 
+# ArrayList - code with real world example, 
+
+A Library management system which allows you to manage and purchase book. 
+
+implementation and Tasks with collections 
+
+Real-World example furniture showroom using generics, enum, method overloading and user defined exception.
+
+# LinkedList implementation
