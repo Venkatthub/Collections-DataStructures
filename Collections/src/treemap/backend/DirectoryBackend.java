@@ -35,6 +35,10 @@ public class DirectoryBackend {
 						System.out.println(x.toUpperCase());
 				});
 
+			} else {
+
+				throw new NotFound("\nEntered code or area name is incorrect ! \nPlease try again ");
+
 			}
 		}
 
