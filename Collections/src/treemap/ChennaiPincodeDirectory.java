@@ -1,8 +1,8 @@
-package hashmap;
+package treemap;
 
 import java.util.*;
 
-import hashmap.backend.DirectoryBackend;
+import treemap.backend.DirectoryBackend;
 
 /*
  * Chennai Pincode Directory

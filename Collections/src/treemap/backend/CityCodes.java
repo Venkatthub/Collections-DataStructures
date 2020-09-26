@@ -1,4 +1,4 @@
-package hashmap.backend;
+package treemap.backend;
 
 import java.util.*;
 
@@ -16,7 +16,7 @@ public class CityCodes {
 	@Override
 	public String toString() {
 
-		return "city :" + this.city + "\n" + "Code :";
+		return "City :" + this.city + "\n" + "Code :";
 	}
 
 //	Method contains codes on each local in chennai city

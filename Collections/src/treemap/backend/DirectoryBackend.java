@@ -1,4 +1,4 @@
-package hashmap.backend;
+package treemap.backend;
 
 public class DirectoryBackend {
 
@@ -20,7 +20,7 @@ public class DirectoryBackend {
 
 			int code = codes.chennaiCodes().get(userInput);
 
-			System.out.println("\n" + codes + " " + (codes.code + code) + "\n" + "Area :" + userInput.toUpperCase());
+			System.out.println("\n" + codes + (codes.code + code) + "\n" + "Area :" + userInput.toUpperCase());
 
 		} else {
 
@@ -28,7 +28,7 @@ public class DirectoryBackend {
 
 			if (codes.chennaiCodes().containsValue(value)) {
 
-				System.out.println("\n" + codes + " " + (codes.code + value) + "\n" + "Areas :");
+				System.out.println("\n" + codes + (codes.code + value) + "\n" + "Area :");
 
 				codes.chennaiCodes().keySet().stream().forEach(x -> {
 					if (codes.chennaiCodes().get(x) == value)
